@@ -1,0 +1,15 @@
+<!-- AGK META TAG -->
+<b:if cond='data:blog.searchQuery'>
+<title><data:blog.searchQuery/> | AGEKA BLOGSPOT</title>
+<meta expr:content='&quot;Diskripsi 1 &quot; + data:blog.searchQuery + &quot; Diskripsi 2 &quot; + data:blog.searchQuery + &quot; Diskripsi 3 &quot;' name='description'/>
+<meta expr:content='data:blog.searchQuery + &quot;, keyword 1, keyword 2, Keyword 3, keyword 4, keyword 5, keyword 6, keyword 7, keyword 8, keyword 9, keyword 10, keyword 11, keyword 12, keyword 13, keyword 14, keyword 15 &quot;' name='keywords'/>
+<meta content='index,follow,noodp,noydir' name='robots'/>
+<meta content='1 days' name='revisit-after'/>
+<meta content='always' name='revisit'/>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+</b:if>
+<link expr:href='data:blog.url' rel='canonical'/>
+<b:if cond='data:blog.isMobile'>
+<meta content='noindex,nofollow' name='robots'/>
+</b:if>
